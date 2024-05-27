@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:padding="30px"
+    android:orientation="vertical">
+
+    <Button
+        android:onClick="createClick"
+        android:padding="10px"
+        android:text="@string/create_a_new_advert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:onClick="showAllClick"
+        android:padding="10px"
+        android:text="@string/show_all_lost_and_found_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="showMapClick"
+        android:padding="10px"
+        android:text="@string/show_on_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

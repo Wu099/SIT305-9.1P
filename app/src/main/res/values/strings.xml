@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lost &amp; Found</string>
+    <string name="create_a_new_advert">CREATE A NEW ADVERT</string>
+    <string name="show_all_lost_and_found_items">SHOW ALL LOST AND FOUND ITEMS</string>
+    <string name="show_on_map">SHOW ON MAP</string>
+    <string name="location_permission_denied">location_permission_denied</string>
+    <string name="permission_required_toast">permission_required_toast</string>
+    <string name="permission_rationale_location">permission_rationale_location</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
